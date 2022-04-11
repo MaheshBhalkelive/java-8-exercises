@@ -10,8 +10,6 @@ public class ExceptionTest {
 			c = a/b;
 		}catch (Exception e) {
 			// TODO: handle exception
-		}catch (NullPointerException e) {
-			System.out.println(e);
 		}
 		
 		
