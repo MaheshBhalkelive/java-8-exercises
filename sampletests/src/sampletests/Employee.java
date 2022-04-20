@@ -5,15 +5,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Employee {
-	private int id;
-	private String name;
+	public int id;
+	public String name;
 	public int salary;
 	
 	public Employee() {
 		super();
 	}
 	public Employee(int id, String name, int salary) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.salary = salary;
