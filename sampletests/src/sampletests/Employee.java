@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class Employee {
 	private int id;
 	private String name;
-	private int salary;
+	public int salary;
 	
 	public Employee() {
 		super();
