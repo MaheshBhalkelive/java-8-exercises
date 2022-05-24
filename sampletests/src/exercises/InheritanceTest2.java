@@ -1,7 +1,7 @@
 package exercises;
 
 class Vehicle {
-	protected String brand = "Ford";
+	protected String brand = "suzuki";
 
 	public void honk() {
 		System.out.println("Tuut, tuut!");
