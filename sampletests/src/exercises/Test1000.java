@@ -6,7 +6,7 @@ public class Test1000 {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {10,5,7,17,43,87,14,6};
+		int[] arr = {10,5,7,17,-4,43,0,87,14,6};
 		int eAddition =0;
 		int oAddition =0;
 		
