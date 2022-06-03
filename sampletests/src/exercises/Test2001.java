@@ -7,13 +7,25 @@ public class Test2001 {
 		String[] str = {"1","2","3"};
 		int[] values = new int[str.length];
 		int sum=0;
-
-		for(int i = 0;i<=str.length-1;i++) {
+		int i = 0;
+		for(String s : str) {
+			System.out.println(s);
 			values [i] = Integer.parseInt(str[i]);
 			sum=sum+values[i];
-
+			i++;
 		}
+
+
+		/*
+		 * for(int i = 0;i<=str.length-1;i++) { values [i] = Integer.parseInt(str[i]);
+		 * sum=sum+values[i];
+		 * 
+		 * }
+		 */
 		System.out.println(sum);
+
+
+
 
 	}
 
